@@ -1,0 +1,179 @@
+.div-P{
+  height: 1000px;
+/*    background-color: grey;*/
+  margin: 0;
+  border-radius: 0%;
+}
+
+
+h2{
+  text-align: center;
+   margin: 0;
+  padding: 10px;   
+  font-size: 3vw;
+ 
+}
+
+
+
+.center{
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+
+h1{
+  font-size: 45px;; 
+}
+
+
+#read-more-padding{
+  text-align: center;
+  padding: 10px; 
+}
+
+.home-text-spacing{
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.parallax-window {
+  min-height: 700px;
+  z-index: 1;
+  background: transparent;
+}
+
+.parallax-centered {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 250px;
+}
+
+.parallax-centered-text{
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.btn-center{
+  text-align: center;
+  padding: 25px;
+}
+
+
+h1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 5vw;
+  display: block;
+  text-align: center;
+}
+
+h3{
+  padding-right: 30px;
+}
+
+p{
+  font-size: 2.25vw;
+  text-align: left;
+}
+
+.list-about{
+  font-size: 2.25vw;
+  text-align: left;
+  padding-left: 35%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* quick reset and base styles */
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.overlay {
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 4.7%;
+  right: 0;
+  height: 250px;
+  width: 250px;
+  opacity: 0;
+  /* transition: .5s ease; */
+  background-color: #0AA57A;
+}
+
+.container:hover .overlay {
+  opacity: .8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+a:link{
+  text-decoration: none!important;
+  /* color: white; */
+
+}
+
+ body{
+   padding-bottom: 50px;
+ }
+
+.row-space{
+  padding-bottom: 50px;
+  padding-left: 100px;
+  
+  
+}
+
+
+.picture-pad-l{
+  padding-bottom: 25px;
+  
+}
+
+
+.home-screen-text{
+  color: black;
+  position: 5%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 1250px;
+  margin-top: 200px;
+  text-align: left;
+}
+
+.dropdown-item-coloring{
+  color: black !important;
+}
+
+.nav-color{
+  background-color:	#0AA57A; 
+
+}
