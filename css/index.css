@@ -74,11 +74,11 @@ h1 {
 }
 
 h3{
-  padding-right: 30px;
+  padding-right: 25px;
 }
 
 p{
-  font-size: 2.25vw;
+  font-size: 1.75vw;
   text-align: left;
 }
 
@@ -137,8 +137,12 @@ p{
 
 a:link{
   text-decoration: none!important;
-  /* color: white; */
+  color: black;
 
+}
+
+.a-character{
+  padding-right: 25px;
 }
 
  body{
@@ -176,4 +180,15 @@ a:link{
 .nav-color{
   background-color:	#0AA57A; 
 
+}
+
+
+.accordian-spacing{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.links{
+  font-size: 1vw;
+  text-align: left;
 }
